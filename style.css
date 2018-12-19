@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   This resets the webbrowsers styles and allowes set the developer's ones
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.6;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 25px;
+	color: #222222;
+}
+
+/* Moje własne formatowanie */
+html {
+	max-width: 80%;
+	background-color: #ccffcc;
+	margin: 20px auto;
+}
+
+section {
+	background-color: #660033;
+	border-radius: 10px;
+	box-shadow: 20px 20px 20px #99004d;
+	color: #FFFFFF;
+	padding: 5px 25px 20px;
+
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 350%;
+	color: #660033;
+	margin-top: 30px;
+}
+
+h2 {
+	font-size: 180%;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 160%;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+h4 {
+	font-size: 120%;
+}
+
+button {
+	position: relative;
+	left: 33%;
+	width: 33%;
+	font-size: 120%;
+	margin: 20px auto;
+	border: 3px solid #660033;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px #444444;
+	padding: 20px;
+	background-color: #ffff99;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #660033;
+	border: 3px solid #660033;
+	box-shadow: 10px 10px 10px #444444;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+p {
+	text-align: justify;
+}
+
+ul {
+	text-align: center;
+}
+
+/* .map {
+	margin: 20px 0 40px;
+} */
+
+.map {
+	margin: 20px auto;
+}
+
+.map img {
+	margin-left: -25px;
+}
+
+.directions p {
+	text-align: center;
+}
+
+.main-manu-price {
+	text-align: center;
+}
+
+.menu-list {
+	font-family: helvetica, sans-serif;
+	max-width: 50%;
+	background-color: #660033;
+	box-shadow: 20px 20px 20px #99004d;
+	border-radius: 9px;
+	color: #FFFFFF;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+#menu-change {
+	font-weight: 700;
+}
+
+#cheap {
+	text-align: center;
+	font-weight: 600;
+}
+
+.banner {
+	background-size: 100%;
+	background-image: url("img/kotlety.jpg");
+	background-repeat: no-repeat;
+	margin: 50px auto;
+	border-radius: 10px;
+}
+
+.banner h1 {
+	text-shadow: 4px 4px 5px #FFFFFF;
+}
+
+.hours p {
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+ul #ini-menu {
+	float: left;
+	margin-left: 25%;
+	border: 1px solid #ccffcc;
+	font-weight: 700;
+}
+
+ul #ini-location {
+	float: right;
+	margin-right: 25%;
+	border: 1px solid #ccffcc;
+	font-weight: 700;
+}
+
+#ini-menu a {
+max-width: 20%;
+color: #660033;
+}
+
+#ini-location a {
+max-width: 20%;
+color: #660033;
+}
+
+#footer {
+	text-align: center;
+}
