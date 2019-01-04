@@ -55,7 +55,9 @@ html {
 	color: #222222;
 }
 
-/* Moje własne formatowanie */
+/* Moje własne formatowanie 
+Elementy globalne */
+
 html {
 	max-width: 80%;
 	background-color: #ccffcc;
@@ -97,6 +99,8 @@ h4 {
 	font-size: 120%;
 }
 
+/* przyciski przekierowujące na podstrony */
+
 button {
 	position: relative;
 	left: 33%;
@@ -131,9 +135,7 @@ ul {
 	text-align: center;
 }
 
-/* .map {
-	margin: 20px 0 40px;
-} */
+/* mapa na stronie 'kontakt' */
 
 .map {
 	margin: 20px auto;
@@ -146,6 +148,8 @@ ul {
 .directions p {
 	text-align: center;
 }
+
+/* wykaz menu - dania główne  */
 
 .main-manu-price {
 	text-align: center;
@@ -170,6 +174,8 @@ ul {
 	text-align: center;
 	font-weight: 600;
 }
+
+/* banner ze strony głównej 'bistro-main.html' */
 
 .banner {
 	background-size: 100%;
